@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            positions
+        </title>
+        <style>
+            body{
+                background-color:aliceblue;
+                padding: 2%;
+            }
+            .ex1{
+                position: static;
+                color: pink;
+                
+            }
+            .ex2{
+                position: relative;
+                color: rebeccapurple;
+                left: 70%;
+            }
+            .ex3{
+                position: fixed;
+                color:red;
+                left: 40%;
+            }
+            .ex4{
+                position: absolute;
+                color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><centre>positions</centre></h1>
+        <div class="ex1">
+            <p>this is static</p>
+        </div>
+        <div class="ex2">
+            <p>this is relative</p>
+        </div>
+        <div class="ex3">
+            <p>this is fixed</p>
+        </div>
+        <div class="ex4">
+            <p>this is absolute</p>
+        </div>
+    </body>
+</html>
